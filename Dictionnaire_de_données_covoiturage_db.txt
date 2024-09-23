@@ -1,0 +1,398 @@
+Dictionnaire de données 
+
+Nom : id_employee
+Code : ID_EMPLOYEE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : id_traIning
+Code : ID_TRAINING
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : name_traning
+Code : NAME_TRANING
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_session
+Code : ID_SESSION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : start_date
+Code : START_DATE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : end_start
+Code : END_START
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : id_preference
+Code : ID_PREFERENCE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : notification_app
+Code : NOTIFICATION_APP
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : notification_email
+Code : NOTIFICATION_EMAIL
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : notification_sms
+Code : NOTIFICATION_SMS
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : id_notification
+Code : ID_NOTIFICATION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : type_notification
+Code : TYPE_NOTIFICATION
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : content
+Code : CONTENT
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : date_creation
+Code : DATE_CREATION
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
+Nom : acceptation
+Code : "READ"
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : id_trainee
+Code : ID_TRAINEE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : name_trainee
+Code : NAME_TRAINEE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_registration
+Code : ID_REGISTRATION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : id_comment
+Code : ID_COMMENT
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : id_participation
+Code : ID_PARTICIPATION
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : start_date_participation
+Code : START_DATE_PARTICIPATION
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : end_start_participation
+Code : END_START_PARTICIPATION
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : status
+Code : STATUS
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_trip
+Code : ID_TRIP
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : address_departure
+Code : ADDRESS_DEPARTURE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : address_arrival
+Code : ADDRESS_ARRIVAL
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : time_departure
+Code : TIME_DEPARTURE
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
+Nom : price
+Code : PRICE
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : type_trip
+Code : TYPE_TRIP
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : end_date
+Code : END_DATE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : weekdays
+Code : WEEKDAYS
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : date_trip
+Code : DATE_TRIP
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : description
+Code : DESCRIPTION
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_vehicule
+Code : ID_VEHICULE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : model
+Code : MODEL
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : type_vehicule
+Code : TYPE_VEHICULE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : type_fuel
+Code : TYPE_FUEL
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : seat_number
+Code : SEAT_NUMBER
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : average_consumption
+Code : AVERAGE_CONSUMPTION
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : id_user
+Code : ID_USER
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : last_name
+Code : LAST_NAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : firts_name
+Code : FIRTS_NAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : email
+Code : EMAIL
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : password
+Code : PASSWORD
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : phone_number
+Code : PHONE_NUMBER
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : afpa_function
+Code : AFPA_FUNCTION
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : profile_picture
+Code : PROFILE_PICTURE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : account_status
+Code : ACCOUNT_STATUS
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : type_user
+Code : TYPE_USER
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_center
+Code : ID_CENTER
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : name
+Code : NAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : address
+Code : ADDRESS
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : hours_opening
+Code : HOURS_OPENING
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_administrator
+Code : ID_ADMINISTRATOR
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : admin
+Code : ADMIN
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : id_trainer
+Code : ID_TRAINER
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : name_traner
+Code : NAME_TRANING
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_fuel_price
+Code : ID_FUEL_PRICE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : fuel_type
+Code : FUEL_TYPE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : effective_date
+Code : EFFECTIVE_DATE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : id_notification_template
+Code : ID_NOTIFICATION_TEMPLATE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : type
+Code : TYPE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : sms_notifications
+Code : SMS_NOTIFICATIONS
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : id_term_of_service
+Code : ID_TERM_OF_SERVICE
+Type : AUTO_INCREMENT
+Taille : ,
+Commentaire : 
+
+Nom : content
+Code : CONTENT
+Type : TEXT
+Taille : ,
+Commentaire : 
+
+Nom : last_updated
+Code : LAST_UPDATED
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
